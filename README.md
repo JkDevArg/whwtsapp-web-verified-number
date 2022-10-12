@@ -16,5 +16,5 @@ npm run dev
 go whatsapp send msg
 
 ```
-!check number
+!check <number>
 ```
