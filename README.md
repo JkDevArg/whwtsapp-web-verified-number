@@ -1,5 +1,20 @@
-# whwtsapp-web-verified-number
+## Usage/Examples
 
-## how to use
 
+install packages
+
+```
+npm i
+```
+
+run
+
+```
 npm run dev
+```
+
+go whatsapp send msg
+
+```
+!check number
+```
