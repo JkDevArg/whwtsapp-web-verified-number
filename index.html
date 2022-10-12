@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var client = whatsAppWebClient.client;
+        var mobile_no = '628123456789';
+
+        // Get the registered WhatsApp ID for a number
+        var number_details = await client.getNumberId(sanitized_number);
+
+        if(number_details) {
+        console.log("Sending message to ", number_details);
+        /* send message */
+        } else {
+        console.log(sanitized_number, "Mobile no is not registered on 
+        }
+    </script>
+</body>
+</html>
